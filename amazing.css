@@ -1,0 +1,52 @@
+/*question1 : ressources externes => image
+ressources local => fichier css*/ 
+/*question2*/ img{  
+border: 1px solid red;
+} 
+ /*question3*/ h1
+{
+color : white;
+background-color: black;
+}
+/*question4*/ h1 , h2 {
+    color : grey;
+}
+/*question5*/ .s>h2{
+    border: 1px solid green;
+}
+/*question6*/  #mon>span{
+    color: pink;
+  }
+/*question7*/  #mon div{
+    border: 1px solid red;
+  }
+/*question8*/  #mon>div>span{
+    background-color:yellow;
+  }
+/*question9*/  #wed h2:hover{
+    color: green;
+}
+/*question10*/ #tue h2:hover,#mon h2:hover{
+     color:red;
+}
+/*question11*/
+/*question12*: every time we reorder the rules . the oldest rule will run . for exemple: if we do 
+ h2:hover{
+     color: cyan;
+ }
+ thats mean all h2 will be in cyan when put the cursor on it. but when i tried it i found 1 h2 didnt got cyan color but still green,
+ because its have an old rule and this rule is the anwer of the question 9*/
+/*question13*/ li:first-of-type{
+    font-weight: bold;
+}
+/*question14*/ li:first-of-type+li{
+    color: red;
+}
+/*question15*/ #tue > div:nth-child(3) > div:nth-child(4) > div:nth-child(2),#tue > div:nth-child(3) > div:nth-child(2),#tue > div:nth-child(3) > span:nth-child(1),#tue > div:nth-child(8) > div:nth-child(2),#tue > div:nth-child(8) > div:nth-child(4) > div:nth-child(2),#tue > div:nth-child(11) > div > div,#tue > div:nth-child(13) > div:nth-child(2) > span:nth-child(1),#tue > div:nth-child(13) > div:nth-child(4) > div:nth-child(2) {color:blue}
+/*question16*/#tue > span:nth-child(4),#tue > div:nth-child(3) > span:nth-child(3),#tue > div:nth-child(3) > div:nth-child(4),#tue > div:nth-child(6) > :not(:first-child),#tue > div:nth-child(8) > div:nth-child(4),#tue > div:nth-child(8) > span:nth-child(3),#tue > div:nth-child(11) > span:nth-child(2),#tue > div:nth-child(13) > div:nth-child(2) > span:nth-child(2),#tue > div:nth-child(13) > span:nth-child(3),#tue > div:nth-child(13) > div:nth-child(4),#tue > div:nth-child(13) > div:nth-child(6) > span:nth-child(3){font-size:200%}
+/*question17*/ li:nth-of-type(9){
+    color: blue;
+}
+/*question18*/ li:nth-of-type(5n+3){
+    color: green;
+}
