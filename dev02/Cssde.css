@@ -1,0 +1,38 @@
+.a1{
+    font-family: arial;
+    font-size: 24px;
+    margin: 70px;
+    padding: 20px;
+    margin: 0px auto;
+    text-align: center;
+    color: rgb(241, 222, 222);
+    background-color: blueviolet;
+}
+.a2{
+    width: 500px;
+    margin: 70px;
+    padding: 20px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: rgb(30, 189, 30);
+}
+img{
+
+    margin: 10px;
+}
+button{
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+    font-size: 0.7cm;
+    
+}
+#b1{
+    color: rgb(151, 73, 0);
+    background-color: rgb(228, 207, 25);
+    width: 250px;
+    text-align: center;
+    margin: 0px auto;
+    
+}
